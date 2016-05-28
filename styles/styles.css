@@ -93,8 +93,8 @@ height: 125px;*/
         font-family: 'RobotoBold';
         font-variant: small-caps;
         padding-bottom: 20px; }
-        .section__right .content article header p {
-          font-family: 'Roboto';
-          line-height: 25px; }
+      .section__right .content article p {
+        font-family: 'Roboto';
+        line-height: 25px; }
 
 /*# sourceMappingURL=styles.css.map */
