@@ -102,7 +102,7 @@
         list-style: none; }
         .section__right nav ul li a {
           padding: 3px 12px;
-          font-family: 'RobotoBold';
+          font-weight: bold;
           font-size: 25px;
           font-variant: small-caps;
           text-decoration: none;
