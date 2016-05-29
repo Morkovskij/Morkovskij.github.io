@@ -90,7 +90,8 @@ height: 125px;*/
       padding: 35px 0; }
       .section__right .content article header {
         font-size: 23px;
-        font-family: 'RobotoBold';
+        font-family: 'Roboto';
+        font-weight: bold;
         font-variant: small-caps;
         padding-bottom: 20px; }
       .section__right .content article p {
