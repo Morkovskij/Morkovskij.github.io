@@ -21,6 +21,15 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
@@ -31,11 +40,12 @@
   width: 50%;
   position: fixed; }
   .section__left-laptop {
+    width: 55%;
     display: block; }
     .section__left-laptop img {
-      margin-top: 150px;
       width: 100%; }
   .section__left .wrap {
+    top: 0;
     z-index: 2;
     position: absolute;
     width: 100%;
@@ -43,14 +53,33 @@
     height: auto; }
     .section__left .wrap #1 {
       margin-top: 150px; }
+  .section__left .info {
+    color: #ffffff;
+    padding: 40px 18%;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center; }
+  .section__left .brief {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 20px;
+    background-color: #ffeb3b;
+    color: #673ab7;
+    border-bottom-right-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 265px;
+    height: 60px; }
 .section__right {
   height: 100%;
   float: right;
   width: 50%; }
   .section__right nav {
     width: 100%;
-            /*
-height: 125px;*/
+    /*
+          height: 125px;*/
     text-align: center;
     padding: 50px 10% 0; }
     .section__right nav .active {
@@ -79,9 +108,9 @@ height: 125px;*/
           text-decoration: none;
           color: #000000; }
   .section__right .content {
-    padding: 68px 8% 0 20.8%; }
+    padding: 68px 10% 0 10%; }
     .section__right .content__title {
-      font-family: RobotoBold;
+      font-weight: bold;
       font-size: 30px;
       font-variant: small-caps;
       text-align: center;
@@ -90,12 +119,10 @@ height: 125px;*/
       padding: 35px 0; }
       .section__right .content article header {
         font-size: 23px;
-        font-family: 'Roboto';
         font-weight: bold;
         font-variant: small-caps;
         padding-bottom: 20px; }
       .section__right .content article p {
-        font-family: 'Roboto';
         line-height: 25px; }
 
 /*# sourceMappingURL=styles.css.map */
