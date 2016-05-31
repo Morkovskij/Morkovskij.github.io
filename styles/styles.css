@@ -40,12 +40,12 @@
   width: 50%;
   position: fixed; }
   .section__left-laptop {
-    width: 48%;
+    width: 57%;
     display: block;
     position: absolute;
     bottom: 31.6%;
     left: 50%;
-    margin-left: -24%; }
+    margin-left: -28.5%; }
     .section__left-laptop img {
       width: 100%; }
   .section__left .wrap {
