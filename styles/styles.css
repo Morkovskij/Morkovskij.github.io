@@ -9,11 +9,13 @@
       -ms-flex-align: center;
           align-items: center;
   background-color: #ffffff;
-  width: 175px;
-  height: 64px;
-  padding-left: 40px;
+  width: 9.2%;
+  height: 6%;
+  padding-left: 2.1%;
   position: fixed;
-  top: 35px; }
+  top: 3.8%; }
+  .logo img {
+    width: 65%; }
 
 .section__left {
   float: left;
@@ -130,7 +132,8 @@
       text-align: center;
       padding: 50px 0; }
     .section__right .content article {
-      padding: 35px 0; }
+      padding: 35px 0;
+      color: #212121; }
       .section__right .content article header {
         font-size: 23px;
         font-weight: bold;
