@@ -54,8 +54,10 @@
     .section__left .wrap #1 {
       margin-top: 150px; }
   .section__left .info {
+    top: 58.5%;
+    position: absolute;
     color: #ffffff;
-    padding: 40px 18%;
+    padding: 0 18%;
     font-size: 18px;
     line-height: 25px;
     text-align: center; }
@@ -89,6 +91,7 @@
     .section__right nav ul {
       height: 40px;
       width: 100%;
+      max-width: 1080px;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -96,7 +99,8 @@
       -webkit-box-pack: justify;
       -webkit-justify-content: space-between;
           -ms-flex-pack: justify;
-              justify-content: space-between; }
+              justify-content: space-between;
+      margin: 0 auto; }
       .section__right nav ul li {
         display: inline-block;
         list-style: none; }
@@ -106,7 +110,9 @@
           font-size: 25px;
           font-variant: small-caps;
           text-decoration: none;
-          color: #000000; }
+          color: #212121;
+          display: inline-block;
+          height: 40px; }
   .section__right .content {
     padding: 68px 10% 0 10%; }
     .section__right .content__title {
