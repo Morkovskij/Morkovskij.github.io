@@ -141,5 +141,8 @@
         padding-bottom: 20px; }
       .section__right .content article p {
         line-height: 25px; }
+      .section__right .content article img {
+        width: 100%;
+        height: auto; }
 
 /*# sourceMappingURL=styles.css.map */
