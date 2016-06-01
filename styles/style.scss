@@ -1,0 +1,42 @@
+body {
+  border: 20px solid #000;
+}
+
+.wrapper {
+  font-family: 'Roboto Slab', serif;
+/*  width: 38%*/;
+  margin: 0 30%;
+  .logo {
+    width: 153px;
+    height: 140px;
+    margin: 0 auto;
+    background: #000000 url("../imgs/O.png") no-repeat center;
+  }
+  .slogan {
+    padding: 90px 0;
+    font-family: 'Roboto', serif;
+    text-align: center;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  .ICI {
+    padding: 0 90px 60px 90px;
+    img {
+      width: 100%;
+    }
+  }
+
+  article {
+    padding: 20px 0;
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 300;
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    margin: 0 15px;
+  }
+}
