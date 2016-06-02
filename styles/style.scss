@@ -2,6 +2,8 @@ $color: #212121;
 $color_href: #f44336;
 body {
   border: 20px solid $color;
+  font-family:'Roboto Slab', serif;
+  color: $color;
 }
 
 a {
@@ -47,6 +49,13 @@ a {
       font-size: 24px;
       line-height: 40px;
       font-weight: 300;
+      .bold {
+        font-weight: 400;
+        font-family: 'Roboto Slab', serif;
+        font-size: 24px;
+        line-height: 40px;
+
+      }
     }
     a {
       font-size: 24px;
