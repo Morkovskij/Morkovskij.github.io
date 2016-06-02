@@ -10,9 +10,8 @@ a {
 
 .wrapper {
   font-family: 'Roboto Slab', serif;
-  /*  width: 38%*/
-;
-  margin: 0 30%;
+  margin: 0 20%;
+  color: $color;
   .logo {
     width: 153px;
     height: 140px;
@@ -21,10 +20,12 @@ a {
   }
   .slogan {
     padding: 90px 0;
-    font-family: 'Roboto', serif;
     text-align: center;
-    font-weight: 300;
-    font-size: 48px;
+    span {
+      font-weight: 300;
+      font-size: 48px;
+      font-family: 'Roboto', serif;
+    }
   }
   .ICI {
     padding: 0 90px 60px 90px;
@@ -77,5 +78,8 @@ footer {
 @media screen and (max-width: 800px) {
   .wrapper {
     margin: 0 15px;
+  }
+  body {
+    border: 5px solid $color;
   }
 }
