@@ -99,10 +99,13 @@ footer {
       margin: -5px auto 5px auto;
     }
     article {
-      text-align: start;
-      p, .bold {
+      p {
         font-size: 18px;
         line-height: 25px;
+        .bold {
+          font-size: 18px;
+          line-height: 25px;
+        }
       }
     }
   }
