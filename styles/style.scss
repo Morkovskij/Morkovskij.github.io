@@ -85,7 +85,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  line-height: 70px;
   text-align: center;
   a {
     font-size: 36px;
@@ -96,7 +95,7 @@ footer {
 
 @media screen and (max-width: 800px) {
   .wrapper {
-    margin: 0 15px;
+    margin: 0 44px;
     .ICI {
       padding: 0;
     }
