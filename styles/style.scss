@@ -19,10 +19,6 @@ a {
     display: block;
     width: 22%;
     height: auto;
-    /*    width: 160px;
-        height: 160px;
-        background: $color url("../imgs/Logo_Circle.svg") no-repeat center;
-        background-size: 80px;*/
   }
   .slogan {
     padding: 60px 0;
@@ -98,6 +94,9 @@ footer {
     margin: 0 44px;
     .ICI {
       padding: 0;
+    }
+    .logo {
+      margin: -5px auto 5px auto;
     }
   }
 
