@@ -16,10 +16,13 @@ a {
   color: $color;
   .logo {
     margin: -20px auto 20px auto;
-    width: 160px;
-    height: 160px;
-    background: $color url("../imgs/Logo_Circle.svg") no-repeat center;
-    background-size: 80px;
+    display: block;
+    width: 22%;
+    height: auto;
+    /*    width: 160px;
+        height: 160px;
+        background: $color url("../imgs/Logo_Circle.svg") no-repeat center;
+        background-size: 80px;*/
   }
   .slogan {
     padding: 60px 0;
@@ -94,7 +97,11 @@ footer {
 @media screen and (max-width: 800px) {
   .wrapper {
     margin: 0 15px;
+    .ICI {
+      padding: 0;
+    }
   }
+
   body {
     border: 5px solid $color;
   }
@@ -103,7 +110,5 @@ footer {
       display: block;
     }
   }
-  .ICI {
-    padding: 0;
-  }
+
 }
